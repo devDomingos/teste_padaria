@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+}
+
+header {
+    background-image: url(./images/pao1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+}
+
+#logopao {
+    width: 160px;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#nomepadaria {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+header h2 {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: wheat;
+    margin-top: 100px;
+}
+
+.contato {
+    float:right;
+    margin-top: 200px;
+    background-color: rgba(240, 255, 240, 0.445);
+}
+
+.contato a {
+    font-family:'Vujahday Script', cursive;
+    font-size: 2rem;
+    color: green;
+    margin-bottom: 40px;
+}
+
+#whats {
+    display: inline;
+}
+
+.pic {
+    width: 180px;
+}
+.local {
+   display: flex;
+   flex-direction:column;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.local h2{
+    font-family: 'Vujahday Script', cursive;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.local p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.fotos h2 {
+    font-family: 'Vujahday Script', cursive;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+iframe {
+    margin: auto;
+}
+.fotos {
+    overflow: hidden;
+}
+
+.fotos img {
+    width: 180px;
+}
